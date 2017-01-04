@@ -1,3 +1,3 @@
-var hello = "Hello, ya'll"; /*Hey you can't use slang*/
+var hello = "Hello, ya'll"; /*On second thought, nevermind, you're fine.*/
 
 console.log(hello);
