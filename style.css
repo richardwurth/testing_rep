@@ -1,0 +1,114 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.container {
+  width: 200px;
+  height: 300px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 12px;
+}
+.dragon {
+  border-radius: 4px;
+  width: 180px;
+  height: 280px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+.name_container {
+  height: 28px;
+  width: 175px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,224%);
+  position: absolute;
+  background-color: rgba(99, 99, 99, 0.6);
+  z-index: 10;
+}
+.enemy_name {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,60%);
+  position: absolute;
+  color: white;
+  font-family: monospace;
+  font-size: 22px;
+  z-index: 11;
+}
+.stats {
+  border-radius: 4px;
+  height: 45px;
+  width: 175px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,206%);
+  background-color: rgba(99, 99, 99, 0.6);
+  z-index: 10;}
+.hp {
+  text-align: center;
+  height: 28px;
+  width: 74px;
+  top: 50%;
+  left: 50%;
+  transform: translate(17%,-491%);
+  position: absolute;
+  background-color: rgba(99, 99, 99, 0.6);
+  z-index: 10;
+}
+.lvl {
+  height: 28px;
+  width: 89px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-99%,-491%);
+  position: absolute;
+  background-color: rgba(99, 99, 99, 0.6);
+  z-index: 10;
+}
+.messages {
+  top: 50%;
+  left: 50%;
+  transform: translate(-53%,-70%);
+  position: absolute;
+  color: white;
+  font-family: monospace;
+  font-size: 9px;
+  z-index: 11;
+  width: 160px;
+}
+.text-hp {
+  text-align: center;
+  height: 28px;
+  width: 175px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-100%);
+  position: absolute;
+  z-index: 10;
+  font-family: monospace;
+  font-size: 17px;
+  color: white;
+}
+.text-lvl {
+  text-align: center;
+  height: 28px;
+  width: 172px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-93%);
+  position: absolute;
+  z-index: 10;
+  font-family: monospace;
+  font-size: 17px;
+  color: white;
+}
